@@ -81,8 +81,6 @@ Full working example is in [`examples/mastra_client.ts`](./examples/mastra_clien
 
 For the detailed n8n workflow architecture — the main MCP Trigger router and the 5 sub-workflows that handle each tool — see [`docs/workflows.md`](./docs/workflows.md).
 
-A representative n8n sub-workflow showing how the `get_notes` MCP tool is wired together (embedding generation + RPC call + response formatting) is in [`examples/n8n/`](./examples/n8n/).
-
 ---
 
 ## Stack
