@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Build output
+dist/
+build/
+*.tsbuildinfo
+
+# Editor
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# OS
+Thumbs.db
+
+# Secrets — explicit
+*.pem
+*.key
+credentials.json
+service-account*.json
+
+# n8n exports — never commit production workflows
+*.workflow.json
+workflows/
+
+# Supabase / database dumps — never commit data
+*.sql.dump
+supabase_dump_*.sql
+
+# Local agent state
+agent-state/
+.mastra/
